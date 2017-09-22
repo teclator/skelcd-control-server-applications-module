@@ -1,0 +1,6 @@
+-------------------------------------------------------------------
+Fri Sep 22 12:13:09 UTC 2017 - jreidinger@suse.com
+
+- initial package (needed for having roles defined in respective
+  modules only to fix bsc#1049297)
+- 15.0.0
