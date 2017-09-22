@@ -1,5 +1,5 @@
 #
-# spec file for package server-application-roles
+# spec file for package skelcd-control-server-applications-module
 #
 # Copyright (c) 2016 SUSE LINUX GmbH, Nuernberg, Germany.
 #
@@ -20,20 +20,20 @@
 #
 # IMPORTANT: Please do not change the control file or this spec file
 #   in build service directly, use
-#   https://github.com/yast/server-application-roles repository
+#   https://github.com/yast/skelcd-control-server-applications-module repository
 #
-#   See https://github.com/yast/server-application-roles/blob/master/CONTRIBUTING.md
+#   See https://github.com/yast/skelcd-control-server-applications-module/blob/master/CONTRIBUTING.md
 #   for more details.
 #
 ######################################################################
 
-Name:           server-application-roles
+Name:           skelcd-control-server-applications-module
 # xmllint (for validation)
 BuildRequires:  libxml2-tools
 # RNG validation schema
 BuildRequires:  yast2-installation-control >= 4.0.0
 
-Url:            https://github.com/yast/server-application-roles
+Url:            https://github.com/yast/skelcd-control-server-applications-module
 AutoReqProv:    off
 Version:        15.0.0
 Release:        0
