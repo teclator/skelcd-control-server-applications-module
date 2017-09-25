@@ -35,7 +35,7 @@ textdomain="control"
             <system_roles config:type="list">
               <system_role>
                 <id>kvm_host_role</id>
-                <order config:type="integer">2000</priority>
+                <order config:type="integer">2000</order>
                 <!-- the rest is overlaid over the feature sections and values. -->
                 <partitioning>
                   <try_separate_home config:type="boolean">false</try_separate_home>
@@ -49,14 +49,15 @@ textdomain="control"
               </system_role>
               <system_role>
                 <id>xen_host_role</id>
-                <order config:type="integer">3000</priority>
+                <order config:type="integer">3000</order>
                 <partitioning>
                   <try_separate_home config:type="boolean">false</try_separate_home>
                 </partitioning>
                 <software>
                   <default_patterns>base Minimal xen_server</default_patterns>
-                <optional_default_patterns><![CDATA[]]></optional_default_patterns>
-              </software>
+                  <optional_default_patterns><![CDATA[]]></optional_default_patterns>
+                </software>
+              </system_role>
             </system_roles>
           </insert_system_role>
         </insert_system_roles>
