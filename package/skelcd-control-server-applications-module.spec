@@ -42,7 +42,7 @@ License:        MIT
 Group:          Metapackages
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source:         %{name}-%{version}.tar.bz2
-Provides:       roles_extension() = server-application
+Provides:       installer_module_extension() = server-application
 
 %description
 Meta package for Server Application module roles definition.
