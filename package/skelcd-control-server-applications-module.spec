@@ -59,10 +59,12 @@ It is not intended for installation.
 make -C control check
 
 %install
+
+mkdir -p $RPM_BUILD_ROOT
 #
 # Add control file
 #
-install -m 644 control/installation.xml $RPM_BUILD_ROOT/installation.xml
+install -m 644 control/installation.xml $RPM_BUILD_ROOT/
 
 # install LICENSE (required by build service check)
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/doc/packages/%{name}
