@@ -15,7 +15,7 @@ textdomain="control"
       </kvm_host_role>
       <kvm_host_role_description>
         <label>• Kernel-based hypervisor and tools
-        • No separate /home partition</label>
+• No separate /home partition</label>
       </kvm_host_role_description>
       <xen_host_role>
         <!-- TRANSLATORS: a label for a system role -->
@@ -23,7 +23,7 @@ textdomain="control"
       </xen_host_role>
       <xen_host_role_description>
         <label>• Bare metal hypervisor and tools
-        • No separate /home partition</label>
+• No separate /home partition</label>
       </xen_host_role_description>
     </texts>
 
